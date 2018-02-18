@@ -1,0 +1,182 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  flex-wrap: center;
+  margin:0;
+}
+a {
+  color:white;
+  margin:0;
+  padding:0;
+  justify-content: space-between;
+}
+
+header {
+  width: 1000px;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 9px 10px;
+  border: 3px solid Pink;
+  text-decoration: underline;
+}
+
+.header {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 9px 10px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.nav {
+  text-align: right;
+  flex-grow: 1;
+  margin: 0;
+  padding: 23;
+  height: 69px;
+}
+
+.mission {
+  width: 1000px;
+  height: 476px;
+  border: 3px solid Pink;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 325px;
+  align-items: center;
+  opacity: 0.9;
+  background-color: black;
+  background-repeat: no-repeat;
+   z-index:1;
+}
+
+.mission-text h2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100px;
+  opacity: 0.9;
+  z-index:1;
+}
+.mission-text h4 {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100px;
+  opacity: 0.9;
+   z-index:1
+}
+
+
+.tea {
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  border: 3px solid Pink;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  display: flex;
+  border: 3px solid Pink;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box img {
+  height: 200px;
+  width: 300px;
+  border: 3px solid Pink;
+}
+
+.box,
+h4 {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 8px;
+}
+
+.box, h2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80px;
+}
+
+#spacearound {
+  justify-content: space-between;
+}
+
+.tea,
+h2 {
+  border: 3px solid Pink;
+  margin: 0;
+}
+/* Featured Tea Styling */
+
+.monthly-tea {
+  margin-top: 50px;
+  width: 1000px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teas {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teas .teapics {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 15px;
+}
+
+.tea-photo {
+  width: 300px;
+  height: 200px;
+}
